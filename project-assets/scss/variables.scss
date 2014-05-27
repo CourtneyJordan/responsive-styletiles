@@ -1,0 +1,44 @@
+/* ------------------------------------------------ */
+/* Awesome SCSS/CSS Styles Made By Courtney Jordan  */
+/* ------------------------------------------------ */
+
+$white: #FFFFFF;
+$black: #000000;
+
+//grey
+$grey: #717171;
+$greyLighter: lighten($grey, 20%);
+$greyLight: lighten($grey, 10%);
+$greyDark: darken($grey, 10%);
+$greyDarker: darken($grey, 20%);
+
+//greyborder
+$greyborder: #DDDDDD;
+
+//green
+$green: #779B4F;
+$greenLighter: lighten($green, 20%);
+$greenLight: lighten($green, 10%);
+$greenDark: darken($green, 10%);
+$greenDarker: darken($green, 15%);
+
+//olive
+$olive: #9AA35F;
+$oliveLighter: lighten($olive, 20%);
+$oliveLight: lighten($olive, 10%);
+$oliveDark: darken($olive, 10%);
+$oliveDarker: darken($olive, 15%);
+
+//brown
+$brown: #8E795C;
+$brownLighter: lighten($brown, 20%);
+$brownLight: lighten($brown, 10%);
+$brownDark: darken($brown, 10%);
+$brownDarker: darken($brown, 15%);
+
+//blue
+$blue: #9BB9BC;
+$blueLighter: lighten($blue, 20%);
+$blueLight: lighten($blue, 10%);
+$blueDark: darken($blue, 10%);
+$blueDarker: darken($blue, 15%);

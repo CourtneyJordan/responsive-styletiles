@@ -1,0 +1,381 @@
+@charset "UTF-8";
+/* ----------------------------------------------- */
+/* --- Awesome SCSS Created by Courtney Jordan --- */
+/* ----------------------------------------------- */
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello/fontello.eot?79812516");
+  src: url("../fonts/fontello/fontello.eot?79812516#iefix") format("embedded-opentype"), url("../fonts/fontello/fontello.woff?79812516") format("woff"), url("../fonts/fontello/fontello.ttf?79812516") format("truetype"), url("../fonts/fontello/fontello.svg?79812516#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?79812516#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-globe:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-sun:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-moon:before {
+  content: '\e802';
+}
+
+/* '' */
+.icon-pagelines:before {
+  content: '\e803';
+}
+
+/* '' */
+/* ------------------------------------------------ */
+/* Awesome SCSS/CSS Styles Made By Courtney Jordan  */
+/* ------------------------------------------------ */
+.site-bar, .site-logo {
+  background: #779b4f;
+  color: white !important;
+  display: inline-block;
+  height: 10%;
+  margin-right: 160px;
+}
+
+.site-logo {
+  font-size: 1.5em !important;
+  margin-left: 0 !important;
+  padding-top: 0.5em !important;
+}
+
+.style-tile-title-m {
+  display: inline-block;
+  margin-left: 12px;
+  font-size: 1.0em;
+  padding-right: 230px;
+}
+
+.style-tile-title-d {
+  display: none;
+}
+
+body.off-canvas {
+  background: #779b4f;
+}
+body.off-canvas .page {
+  background: white !important;
+  min-height: 0 !important;
+  top: 0 !important;
+}
+body.off-canvas .page h1, body.off-canvas .page h2, body.off-canvas .page h3, body.off-canvas .page h4, body.off-canvas .page h5, body.off-canvas .page h6 {
+  color: #779b4f;
+  margin-bottom: .1em;
+}
+body.off-canvas .page a {
+  color: #9aa35f;
+  text-decoration: underline;
+}
+body.off-canvas .page .tag {
+  color: #8b8b8b;
+  font-size: 0.8em;
+}
+body.off-canvas .page .subheader {
+  color: #8b8b8b;
+  font-size: 0.6em;
+}
+body.off-canvas .page .content-section {
+  padding: 5em 0;
+}
+body.off-canvas .page .color-box {
+  border: 1px solid #dddddd;
+  height: 68px;
+  margin-bottom: 20px;
+  width: 100%;
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+body.off-canvas .page .color-box div {
+  border: 1px solid #dddddd;
+  height: 60px;
+  margin: 0.2em;
+  padding: 0.2em;
+}
+body.off-canvas .page .color-box .one {
+  background: #779b4f;
+}
+body.off-canvas .page .color-box .two {
+  background: #9aa35f;
+}
+body.off-canvas .page .color-box .three {
+  background: #8e795c;
+}
+body.off-canvas .page .color-box .four {
+  background: #9bb9bc;
+}
+body.off-canvas .page .color-box .five {
+  background: #717171;
+}
+body.off-canvas .page .icon-globe,
+body.off-canvas .page .icon-sun,
+body.off-canvas .page .icon-moon,
+body.off-canvas .page .icon-pagelines {
+  color: white;
+  display: inline-block;
+  margin: 16px;
+  text-decoration: none;
+}
+body.off-canvas .page .icon-globe:hover,
+body.off-canvas .page .icon-sun:hover,
+body.off-canvas .page .icon-moon:hover,
+body.off-canvas .page .icon-pagelines:hover {
+  color: white;
+  text-decoration: none;
+}
+body.off-canvas .page .button-box {
+  display: inline-block;
+  margin-bottom: 30px;
+  width: 100%;
+}
+body.off-canvas .page .button-box .button-prop {
+  border-radius: 8px;
+  font-size: 1.8em;
+  display: inline-block;
+  height: 60px;
+  margin-bottom: 10px;
+  padding: 18px 10px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+}
+body.off-canvas .page .button-box .button1 {
+  background: #9bb9bc;
+  color: white;
+}
+body.off-canvas .page .button-box .button2 {
+  background: #8e795c;
+  color: white;
+}
+body.off-canvas .page .button-box .button3 {
+  background: #717171;
+  color: white;
+}
+body.off-canvas .page .wf-title-adjust {
+  margin-top: 10px;
+}
+body.off-canvas .page .rectangle {
+  background: #9bb9bc;
+  border-radius: 8px;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+body.off-canvas .page .rectangle a {
+  color: white;
+  text-decoration: none;
+}
+body.off-canvas .page .workforce-lg {
+  font-size: 1.5em;
+}
+body.off-canvas .page .other-lg {
+  font-size: 1.9em;
+}
+body.off-canvas .page .circle, body.off-canvas .page .circle-title {
+  display: none;
+}
+
+.footer {
+  background: #779b4f;
+}
+.footer a {
+  color: white !important;
+  text-decoration: none !important;
+}
+.footer a:hover {
+  color: white !important;
+}
+.footer a:active {
+  color: white !important;
+}
+
+@media only screen and (min-width: 35em) {
+  .site-bar {
+    height: 7%;
+  }
+
+  .style-tile-title-m {
+    display: none;
+  }
+
+  .style-tile-title-d {
+    display: inline-block;
+    position: absolute;
+    margin-top: 22px;
+    margin-left: 20px;
+  }
+
+  .page .margin-top-d {
+    margin-top: 20px;
+  }
+  .page .workforce-lg {
+    font-size: 2.4em !important;
+  }
+  .page .other-lg {
+    font-size: 2.5em !important;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .site-logo {
+    font-size: 2.5em !important;
+  }
+
+  .site-bar {
+    height: 10%;
+  }
+
+  .style-tile-title-d {
+    margin-top: 28px;
+  }
+
+  .page a:hover {
+    color: #aeb67f !important;
+    text-decoration: underline !important;
+  }
+  .page .content-section {
+    padding: 2em !important;
+  }
+  .page .color-box {
+    display: inline-block;
+    margin-bottom: 0 !important;
+    width: 18% !important;
+  }
+  .page .button-box .button-prop {
+    font-size: 1.0em !important;
+    height: auto !important;
+    margin-right: 8px;
+    padding: 10px !important;
+    text-align: left !important;
+    width: auto !important;
+  }
+  .page .button-box .button1:hover {
+    background: #baced0 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .button-box .button1:active {
+    background: #7ca4a8 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .button-box .button2:hover {
+    background: #a79276 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .button-box .button2:active {
+    background: #60513e !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .button-box .button3:hover {
+    background: #8b8b8b !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .button-box .button3:active {
+    background: #585858 !important;
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .page .rectangle {
+    display: none;
+  }
+  .page .circle {
+    background: #9bb9bc !important;
+    display: inline-block !important;
+    font-size: 2.5em !important;
+    height: 100px !important;
+    margin-right: 20px !important;
+    margin-top: 10px !important;
+    width: 100px !important;
+    -moz-border-radius: 50px !important;
+    -webkit-border-radius: 50px !important;
+    border-radius: 50px !important;
+  }
+  .page .circle:hover {
+    background: #baced0 !important;
+  }
+  .page .circle:active {
+    background: #7ca4a8 !important;
+  }
+  .page .circle-title {
+    display: block !important;
+    font-size: 0.4em !important;
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+  .page .icon-globe,
+  .page .icon-sun,
+  .page .icon-moon,
+  .page .icon-pagelines {
+    color: white !important;
+    display: inline-block;
+    margin: 30px 22px !important;
+    text-decoration: none;
+  }
+  .page .icon-globe:hover,
+  .page .icon-sun:hover,
+  .page .icon-moon:hover,
+  .page .icon-pagelines:hover {
+    color: white !important;
+    text-decoration: none !important;
+  }
+
+  .footer {
+    background: #779b4f;
+  }
+  .footer a {
+    color: white !important;
+    text-decoration: none !important;
+  }
+  .footer a:hover {
+    color: white !important;
+  }
+  .footer a:active {
+    color: white !important;
+  }
+}

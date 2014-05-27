@@ -1,0 +1,388 @@
+/* ----------------------------------------------- */
+/* --- Awesome SCSS Created by Courtney Jordan --- */
+/* ----------------------------------------------- */
+
+@import "fonts";
+@import "variables";
+
+.site-bar, .site-logo {
+    background: $green;
+    color:  $white !important;
+    display: inline-block;
+    height: 10%;
+    margin-right: 160px;
+}
+
+.site-logo {
+    font-size: 1.5em !important;
+    margin-left: 0 !important;
+    padding-top: 0.5em !important;
+}
+
+.style-tile-title-m {
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 1.0em;
+    padding-right: 230px;
+}
+
+.style-tile-title-d {
+    display: none;
+}
+
+body.off-canvas {
+    background: $green;
+
+    .page {
+        background: $white !important;
+        min-height: 0 !important;
+        top: 0 !important;
+
+        h1,h2,h3,h4,h5,h6 {
+            color: $green;
+            margin-bottom: .1em;
+        }
+
+
+        a {
+            color: $olive;
+            text-decoration: underline;
+        }
+
+        .tag {
+            color: $greyLight;
+            font-size: 0.8em;
+        }
+
+        .subheader {
+            color: $greyLight;
+            font-size: 0.6em;
+        }
+
+        .content-section {
+            padding: 5em 0;
+        }
+
+        .color-box {
+            border: 1px solid $greyborder;
+            height: 68px;
+            margin-bottom: 20px;
+            width: 100%;
+            -moz-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+            -webkit-box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+            box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.15);
+
+            div {
+                border: 1px solid $greyborder;
+                height: 60px;
+                margin: 0.2em;
+                padding: 0.2em;
+            }
+
+            .one {
+                background: $green;
+            }
+
+            .two {
+                background: $olive;
+            }
+
+            .three {
+                background: $brown;
+            }
+
+            .four {
+                background: $blue;
+            }
+
+            .five {
+                background: $grey;
+            }
+        }
+
+        .icon-globe,
+        .icon-sun,
+        .icon-moon,
+        .icon-pagelines {
+            color: $white;
+            display: inline-block;
+            margin: 16px;
+            text-decoration: none;
+            &:hover {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+        .button-box {
+            display: inline-block;
+            margin-bottom: 30px;
+            width: 100%;
+
+            .button-prop {
+                border-radius: 8px;
+                font-size: 1.8em;
+                display: inline-block;
+                height: 60px;
+                margin-bottom: 10px;
+                padding: 18px 10px;
+                text-align: center;
+                text-decoration: none;
+                width: 100%;
+
+            }
+
+            .button1 {
+                background: $blue;
+                color: $white;
+            }
+
+            .button2 {
+                background: $brown;
+                color: $white;
+            }
+
+            .button3 {
+                background: $grey;
+                color: $white;
+            }
+        }
+
+        .wf-title-adjust {
+            margin-top: 10px;
+        }
+
+        .rectangle {
+            background: $blue;
+            border-radius: 8px;
+            font-size: 1.8em;
+            margin-bottom: 10px;
+            text-align: center;
+
+            a {
+                color: $white;
+                text-decoration: none;
+            }
+        }
+
+        .workforce-lg {
+            font-size: 1.5em;
+        }
+
+        .other-lg {
+            font-size: 1.9em;
+        }
+
+        .circle, .circle-title {
+            display: none
+        }
+
+    }
+}
+
+.footer {
+    background: $green;
+
+    a {
+        color: $white !important;
+        text-decoration: none !important;
+
+        &:hover {
+            color: $white !important;
+        }
+
+        &:active {
+            color: $white !important;
+        }
+    }
+}
+
+@media only screen and (min-width: 35em) {
+
+    .site-bar {
+        height: 7%;
+    }
+
+    .style-tile-title-m {
+        display: none;
+    }
+
+    .style-tile-title-d {
+        display: inline-block;
+        position: absolute;
+        margin-top: 22px;
+        margin-left: 20px;
+    }
+
+    .page {
+        .margin-top-d {
+            margin-top: 20px;
+        }
+
+        .workforce-lg {
+            font-size: 2.4em !important;
+        }
+
+        .other-lg {
+            font-size: 2.5em !important;
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 48em) {
+
+    .site-logo {
+        font-size: 2.5em !important;
+    }
+
+    .site-bar {
+        height: 10%;
+    }
+
+    .style-tile-title-d {
+        margin-top: 28px;
+    }
+
+    .page {
+
+        a {
+
+            &:hover {
+                color: $oliveLight !important;
+                text-decoration: underline !important;
+            }
+        }
+
+        .content-section {
+            padding: 2em !important;
+        }
+
+       .color-box {
+            display: inline-block;
+            margin-bottom: 0 !important;
+            width: 18% !important;
+       }
+
+       .button-box {
+
+            .button-prop {
+                font-size: 1.0em !important;
+                height: auto !important;
+                margin-right: 8px;
+                padding: 10px !important;
+                text-align: left !important;
+                width: auto !important;
+            }
+
+            .button1 {
+
+
+                &:hover {
+                    background: $blueLight !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+                &:active {
+                    background: $blueDark !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+            }
+
+            .button2 {
+
+                &:hover {
+                background: $brownLight !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+                &:active {
+                    background: $brownDarker !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+            }
+
+            .button3 {
+
+                &:hover {
+                    background: $greyLight !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+                &:active {
+                    background: $greyDark !important;
+                    color: $white !important;
+                    text-decoration: none !important;
+                }
+            }
+
+        }
+
+        .rectangle {
+            display: none;
+        }
+
+        .circle {
+            background: $blue !important;
+            display: inline-block !important;
+            font-size: 2.5em !important;
+            height: 100px !important;
+            margin-right: 20px !important;
+            margin-top: 10px !important;
+            width: 100px !important;
+            -moz-border-radius: 50px !important;
+            -webkit-border-radius: 50px !important;
+            border-radius: 50px !important;
+
+            &:hover {
+                background: $blueLight !important;
+            }
+
+            &:active {
+               background: $blueDark !important;
+            }
+        }
+
+        .circle-title {
+            display: block !important;
+            font-size: 0.4em !important;
+            margin-top: 10px !important;
+            text-align: center !important;
+        }
+
+        .icon-globe,
+        .icon-sun,
+        .icon-moon,
+        .icon-pagelines {
+            color: $white !important;
+            display: inline-block;
+            margin: 30px 22px !important;
+            text-decoration: none;
+            &:hover {
+                color: $white!important;
+                text-decoration: none !important;
+            }
+        }
+
+    }
+
+    .footer {
+    background: $green;
+
+        a {
+            color: $white !important;
+            text-decoration: none !important;
+
+            &:hover {
+                color: $white !important;
+            }
+
+            &:active {
+                color: $white !important;
+            }
+        }
+    }
+}
