@@ -12,3 +12,5 @@ Other Tools used were:
 - [Adobe Kuler](https://kuler.adobe.com)
 - [Fontello](http://fontello.com/)
 - [Font Squirrel](http://www.fontsquirrel.com/)
+
+View the [Responsive Style Tile] (http://courtney-jordan.github.io/responsive-styletiles/) Demo
