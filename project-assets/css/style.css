@@ -248,6 +248,9 @@ body.off-canvas .page .circle, body.off-canvas .page .circle-title {
     margin-left: 20px;
   }
 
+  .page .content-section {
+    padding-top: 4em !important;
+  }
   .page .margin-top-d {
     margin-top: 20px;
   }
