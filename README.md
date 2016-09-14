@@ -13,4 +13,4 @@ Other Tools used were:
 - [Fontello](http://fontello.com/)
 - [Font Squirrel](http://www.fontsquirrel.com/)
 
-View the [Responsive Style Tile] (http://courtney-jordan.github.io/responsive-styletiles/) Demo
+View the [Responsive Style Tile] (http://courtneyjordan.github.io/responsive-styletiles/) Demo
